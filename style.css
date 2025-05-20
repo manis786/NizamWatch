@@ -159,6 +159,8 @@
 
 .BtnDiv Button:hover {
     cursor: pointer;
+    transform: scale(1.01);
+    transition: .5s ease;
 }
 .BannerDiv img {
     width: 100%;
