@@ -140,3 +140,26 @@
     cursor: pointer;
     transform: translateX(4px)
 }
+
+.BtnDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.BtnDiv Button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 130px;
+    height: 40px;
+    font-size: 14pt;
+    font-weight: 300;
+    color: white;
+    background-color: black;
+}
+
+.BtnDiv Button:hover {
+    cursor: pointer;
+}
+.BannerDiv img {
+    width: 100%;
+}
