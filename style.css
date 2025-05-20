@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "NizamFont";
+    src: url("./Assets/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "NizamFont";
+}
+
+.Line1 h3 {
+    margin-top: 10px;
+    font-weight: 300;
+    text-align: center;
+    color: gray;
+    font-size: 13pt;
+}
+
+.Line1 hr,
+.Line2 hr {
+    margin-top: 10px;
+    border-top: 1px solid rgba(211, 211, 211, 0.445);
+}
+
+.Navleft i {
+    font-size: 16pt;
+    margin: 50px 200px;
+    color: gray
+}
+
+.NavBar {
+    position: relative;
+}
+
+.NavLogo {
+    position: absolute;
+    left: 660px;
+    top: 25px;
+}
+
+.NavLogo img:hover {
+    cursor: pointer;
+}
+
+.NavRight i {
+    font-size: 16pt;
+    margin: -71px 220px;
+    color: gray
+}
+
+.NavRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavRight2 i {
+    font-size: 16pt;
+    margin: -71px 170px;
+    color: gray
+}
+
+.NavRight2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavBar i:hover {
+    cursor: pointer;
+}
+
+.NavItems ul {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.NavItems li {
+    list-style: none;
+    padding-top: 10px;
+    color: gray;
+    font-size: 11pt;
+}
+
+.NavItems .H {
+    text-decoration: underline;
+}
+
+.NavItems li:hover {
+    cursor: pointer;
+}
+
+.MainImg {
+    margin-top: 100px;
+}
+
+.MainImg img {
+    width: 100%;
+}
+
+.ContHead h2 {
+    margin-top: 90px;
+    padding-left: 200px;
+    font-weight: 300;
+    font-size: 31pt;
+}
+
+
+.Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.Cards img {
+    width: 400px;
+}
+
+.Cards h3 {
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Cards img:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: .5s ease;
+}
+
+.Cards h3:hover {
+    cursor: pointer;
+
+}
+
+.Cards i:hover {
+    cursor: pointer;
+    transform: translateX(4px)
+}
