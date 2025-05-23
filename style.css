@@ -36,7 +36,7 @@
 .NavLogo {
     position: absolute;
     left: 660px;
-    top: 25px;
+    top: 10px;
 }
 
 .NavLogo img:hover {
@@ -77,7 +77,7 @@
 
 .NavItems li {
     list-style: none;
-    padding-top: 10px;
+    padding-top: 80px;
     color: gray;
     font-size: 11pt;
 }
@@ -138,7 +138,8 @@
 
 .Cards i:hover {
     cursor: pointer;
-    transform: translateX(4px)
+    transform: translateX(4px) ;
+    transition: .5s ease;
 }
 
 .BtnDiv {
@@ -162,6 +163,130 @@
     transform: scale(1.01);
     transition: .5s ease;
 }
+
 .BannerDiv img {
     width: 100%;
 }
+
+.Watchimg img {
+    width: auto;
+}
+
+.WatchCards img {
+    width: 200px;
+}
+
+.WatchCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 40px 100px;
+}
+
+.CardImg3 .CardTitle h4 {
+    padding-top: 25px;
+}
+
+.CardImg3 img,
+.CardImg4 img,
+.CardImg5 img {
+    margin-top: 18px;
+    width: 260px;
+}
+
+.WatchCards h4,
+.WatchCards h5 {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.CardImg5 .CardTitle h4 {
+    padding-top: 22px;
+}
+
+.CardImg4 .CardTitle h4 {
+    padding-top: 5px;
+}
+
+.CardPrice {
+    padding-top: 15px;
+}
+
+.CardPrice h6 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.CardPrice h5 {
+    text-decoration: line-through;
+}
+.WatchCards img:hover {
+    cursor: pointer;
+    transform: scale(1.015);
+    transition: .4s ease;
+
+}
+.CardTitle:hover { 
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 400 ;
+}
+.CardPrice:hover {
+    cursor: pointer;
+
+}
+
+
+.CardsContent2 .Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 50px;
+}
+
+.CardsContent2 .Cards img {
+    width: 230px;
+}
+.CardsContent2 .Cards1 img {
+    width: 230px;
+    height: 230px;
+}
+
+.CardsContent2 .Cards h3 {
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.CardsContent2 .Cards img:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: .5s ease;
+}
+
+.CardsContent2 .Cards h3:hover {
+    cursor: pointer;
+
+}
+.CardsContent2 .Cards i:hover {
+    cursor: pointer;
+    transform: translateX(4px) ;
+    transition: .5s ease;
+    
+}
+.Footer {
+    
+    width: auto;
+    
+    background-color: black;
+}
+.CopyRights h4 {
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+.animate__animated.animate__wobble{
+    --animate-duration: 12s;
+}
+
