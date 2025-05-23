@@ -41,6 +41,8 @@
 
 .NavLogo img:hover {
     cursor: pointer;
+    transform: scale(1.2);
+    transition: .5s ease;
 }
 
 .NavRight i {
@@ -67,6 +69,9 @@
 
 .NavBar i:hover {
     cursor: pointer;
+    transform: translateY(-4px);
+    transition: .5s ease;
+
 }
 
 .NavItems ul {
@@ -77,7 +82,7 @@
 
 .NavItems li {
     list-style: none;
-    padding-top: 80px;
+    padding-top: 10px;
     color: gray;
     font-size: 11pt;
 }
@@ -88,6 +93,9 @@
 
 .NavItems li:hover {
     cursor: pointer;
+
+    transform: translateY(-4px);
+    transition: .5s ease;
 }
 
 .MainImg {
@@ -138,7 +146,7 @@
 
 .Cards i:hover {
     cursor: pointer;
-    transform: translateX(4px) ;
+    transform: translateX(4px);
     transition: .5s ease;
 }
 
@@ -219,17 +227,20 @@
 .CardPrice h5 {
     text-decoration: line-through;
 }
+
 .WatchCards img:hover {
     cursor: pointer;
     transform: scale(1.015);
     transition: .4s ease;
 
 }
-.CardTitle:hover { 
+
+.CardTitle:hover {
     cursor: pointer;
     text-decoration: underline;
-    font-weight: 400 ;
+    font-weight: 400;
 }
+
 .CardPrice:hover {
     cursor: pointer;
 
@@ -248,6 +259,7 @@
 .CardsContent2 .Cards img {
     width: 230px;
 }
+
 .CardsContent2 .Cards1 img {
     width: 230px;
     height: 230px;
@@ -269,24 +281,23 @@
     cursor: pointer;
 
 }
+
 .CardsContent2 .Cards i:hover {
     cursor: pointer;
-    transform: translateX(4px) ;
+    transform: translateX(4px);
     transition: .5s ease;
-    
+
 }
+
 .Footer {
-    
+
     width: auto;
-    
+
     background-color: black;
 }
+
 .CopyRights h4 {
     padding: 100px;
     color: white;
     text-align: center;
 }
-.animate__animated.animate__wobble{
-    --animate-duration: 12s;
-}
-
